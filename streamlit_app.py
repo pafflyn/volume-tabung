@@ -1,6 +1,14 @@
 import streamlit as st
 import math, time
 
+st.markdown("""
+<style>
+body {
+    background-color: #00ff00;
+}
+</style>
+""", unsafe_allow_html=True)
+
 st.title("Menghitung volume tabung ")
 
 r = number = st.number_input('Masukkan Jari-Jari (cm):', 0)
