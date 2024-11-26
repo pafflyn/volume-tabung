@@ -1,7 +1,9 @@
 import streamlit as st
 import math, time
 
-st.title("Menghitung volume tabung ")
+st.title,st.markdown('''
+    :red[Streamlit] :orange[can] :green[write] :blue[text] :violet[in]
+    :gray[pretty] :rainbow[colors] and :blue-background[highlight] text.''')("Menghitung volume tabung ")
 
 r = number = st.number_input('Masukkan Jari-Jari (cm):', 0)
 t = number = st.number_input('Masukkan Tinggi(cm):', 0)
