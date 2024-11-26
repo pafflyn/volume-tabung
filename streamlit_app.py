@@ -1,13 +1,12 @@
 import streamlit as st
 import math, time
 
-st.markdown("""
-<style>
-body {
-    background-color: #00ff00;
-}
-</style>
-""", unsafe_allow_html=True)
+st.markdown('''
+<div style='background-color: #f0f2f6; padding: 10px; border-radius: 5px;'>
+    <h1>This is a header with background color</h1>
+    <p>This is some text inside a div with background color.</p>
+</div>
+''', unsafe_allow_html=True)
 
 st.title("Menghitung volume tabung ")
 
